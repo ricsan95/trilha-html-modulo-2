@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Central - Cuidando de sua Saúde</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h1>Contato</h1>
+                <img src="clinica contato.jpg" alt="contato" width="500"><br>                
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <form action="/enviar_formulario" method="post">
+                     <div> 
+                        <label for="nome">Nome:</label>
+                         <input type="text" id="nome" name="nome" required> 
+                        </div> 
+                        <div> 
+                            <label for="email">E-mail:</label> 
+                            <input type="email" id="email" name="email" required> 
+                        </div> 
+                        <div>
+                            <label for="assunto">Assunto:</label> 
+                            <input type="text" id="assunto" name="assunto" required> 
+                        </div> 
+                        <div> 
+                            <label for="mensagem">Mensagem:</label> 
+                            <textarea id="mensagem" name="mensagem" rows="4" required></textarea> 
+                        </div> 
+                        <div> 
+                            <button type="submit">Enviar</button> 
+                            <button type="reset">Limpar Formulário</button>
+                <!-- Aqui vai o seu conteúdo -->
+                </div>
+            </form>
+    
+            <div class="footer">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="atendimento.html">Horário de Atendimento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <br>
+                <p>&copy; 2024 Clínica Central - Recife/PE</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
